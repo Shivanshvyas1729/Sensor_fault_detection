@@ -1,0 +1,40 @@
+# Core utilities
+aiofiles==23.2.1
+dill==0.3.5.1
+dnspython==2.2.1
+python-dotenv==0.21.0
+pip-chill==1.0.1
+wincertstore==0.2
+
+# Database
+database-connect==0.1.66
+pymongo==4.2.0
+boto3==1.26.105
+mypy-boto3-s3==1.24.76
+types-s3transfer==0.6.0.post4
+
+# ML / DS
+numpy==1.26.4
+pandas==2.3.3
+scikit-learn==1.3.2
+imbalanced-learn==0.11.0
+seaborn==0.12.2
+xgboost==1.6.2
+neuro-mf==0.0.5
+
+# Monitoring (IMPORTANT FIX)
+# PyYAML==6.0.1
+evidently==0.1.58.dev0
+
+# API / Backend
+Flask==2.2.3
+Werkzeug==2.2.2
+jinja2==3.1.2
+uvicorn==0.18.3
+httptools==0.5.0
+watchfiles==0.17.0
+websockets==10.3
+python-multipart==0.0.6
+
+# Dev
+ipykernel==7.1.0
